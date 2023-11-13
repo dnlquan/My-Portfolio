@@ -135,4 +135,29 @@ opacity: 0;
     transform: none;
 }
 
-/* styling fot the sections */
+/* styling for the sections */
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.section-container {
+    display: flex;
+}
+/* styling for the profile section */
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    border-radius: 10px;
+    width: 400px; 
+    height: 400px;
+    object-fit: cover;
+    display: flex;
+}
