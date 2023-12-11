@@ -369,7 +369,7 @@ section{
      }
 
      /* styling for contact info */
-     #contact {
+     #contacts {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -405,4 +405,15 @@ section{
 
      .email-icon {
         height: 2.5rem;
+     }
+
+     /* styling for footer section */
+
+     footer {
+        height: 26vh;
+        margin: 0 1rem;
+     }
+
+     footer p {
+        text-align: center;
      }
